@@ -1,28 +1,72 @@
+
+
+button {
+  width: 200px;
+  height: 40px;
+  background: whitesmoke;
+  border-radius: 10px;
+  border: 4px solid black;
+  font-weight: bold;
+}
+.header {
+  color: black;
+  font-size: 56px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+
+}
+h1 {
+  color: black;
+  background: transparent;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .App {
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+.contener-income {
+  width: 40%;
+  height: 500px;
+  /* opacity: .8; */
+  background: white;
+  float: left;
+  border-radius: 25px;
+  margin-right: 3%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+
+}
+.contener-cost {
+  width: 40%;
+  height: 500px;
+  background: white;
+  float: left;
+  /* opacity: .8; */
+  border-radius: 25px;
+  margin-right: 3%;
+  margin-left: 5%;
+}
+
+.contener {
+  background: transparent;
+  width: 100%;
+  height: 201px;
+}
+.income {
+  width: 40%;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+li {
+  text-decoration: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
